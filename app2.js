@@ -6,7 +6,7 @@ count = 0;
 
 
 function func(id) {
-    document.getElementById("tapSound").setAttribute("src", "/tap.wav") 
+    document.getElementById("tapSound").setAttribute("src", "tap.wav") 
     if (tap == true) {
         document.getElementById("note").innerHTML = "Turn of O";
 
@@ -29,7 +29,7 @@ function func(id) {
     count += 1;
     if(count >=9){
         document.getElementById("note").innerHTML = "Game Over! Please reset the game.";
-        document.getElementById("tapSound").setAttribute("src", "/gameOver.wav") 
+        document.getElementById("tapSound").setAttribute("src", "gameOver.wav") 
     }
     win();
 }
@@ -50,7 +50,7 @@ function func(id) {
 
 function reset() {
 
-    document.getElementById("tapSound").setAttribute("src", "/reset.wav")
+    document.getElementById("tapSound").setAttribute("src", "reset.wav")
 
     document.getElementById("b11").innerHTML = "";
     document.getElementById("b12").innerHTML = "";
@@ -111,7 +111,7 @@ function reset() {
          document.getElementById("b32").disabled = true;
          document.getElementById("b33").disabled = true;
         
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "X is winner! Please Reset the game.";
 
     }
@@ -127,7 +127,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "X is winner! Please Reset the game.";
 
     }
@@ -143,7 +143,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
         
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "X is winner! Please Reset the game.";
 
     }
@@ -174,7 +174,7 @@ function reset() {
          document.getElementById("b32").disabled = true;
          document.getElementById("b33").disabled = true;
     
-         document.getElementById("tapSound").setAttribute("src", "/win.wav")
+         document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "X is winner! Please Reset the game.";
 
     }
@@ -190,7 +190,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "X is winner! Please Reset the game.";
 
     }
@@ -206,7 +206,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "X is winner! Please Reset the game.";
 
     }
@@ -222,7 +222,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
 
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "X is winner! Please Reset the game.";
 
     }
@@ -240,7 +240,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "O is winner! Please Reset the game.";
 
     }
@@ -256,7 +256,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "O is winner! Please Reset the game.";
 
     }
@@ -272,7 +272,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "O is winner! Please Reset the game.";
 
     }
@@ -288,7 +288,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "O is winner! Please Reset the game.";
 
     }
@@ -304,7 +304,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "O is winner! Please Reset the game.";
 
     }
@@ -320,7 +320,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "O is winner! Please Reset the game.";
 
     }
@@ -336,7 +336,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
 
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "O is winner! Please Reset the game.";
 
     }
@@ -352,7 +352,7 @@ function reset() {
         document.getElementById("b32").disabled = true;
         document.getElementById("b33").disabled = true;
     
-        document.getElementById("tapSound").setAttribute("src", "/win.wav")
+        document.getElementById("tapSound").setAttribute("src", "win.wav")
         document.getElementById("note").innerHTML = "O is winner! Please Reset the game.";
 
     }
