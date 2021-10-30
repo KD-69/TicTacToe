@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <audio autoplay src="" id="tapSound"></audio>
+            <table>
+                <caption>Tic Tac Toe</caption>
+                <tr>
+                    <td><button id="b11" onclick="func(this.id)"></button></td>
+                    <td><button  id="b12" onclick="func(this.id)"></button></td>
+                    <td><button id="b13" onclick="func(this.id)"></button></td>
+                </tr>
+                <tr>
+                    <td><button  id="b21" onclick="func(this.id)"></button></td>
+                    <td><button  id="b22" onclick="func(this.id)"></button></td>
+                    <td><button  id="b23" onclick="func(this.id)"></button></td>
+                </tr>
+                <tr>
+                    <td><button  id="b31" onclick="func(this.id)"></button></td>
+                    <td ><button id="b32" onclick="func(this.id)"></button></td>
+                    <td ><button id="b33" onclick="func(this.id)"></button></td>
+                </tr>
+            </table>
+            <p id = "note">Let's Play the Game ! Turn Of X</p>
+            
+        </div>
+        <div class="btn">
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <script src="app2.js"></script>
+</body>
+</html>
