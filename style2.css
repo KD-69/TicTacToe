@@ -8,6 +8,11 @@
 body{
     background-color: 	#00008B;
 }
+
+.container{
+    width: 450px;
+    
+}
 caption{
     color:#00FA9A;
 }
