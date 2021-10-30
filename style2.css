@@ -71,6 +71,7 @@ td{
 }
 
 .btn{
+    color: #00FA9A;
     display: flex;
     justify-content: center;
     align-items: center;
