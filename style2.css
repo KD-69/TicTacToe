@@ -68,10 +68,11 @@ td{
     font-size: 20px;
     padding: 10px 20px;
     background-color: #0000FF	;
+    color: #00FA9A;
 }
 
 .btn{
-    color: #00FA9A;
+    
     display: flex;
     justify-content: center;
     align-items: center;
